@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: guestbook4
+spec:
+  selector:
+    app: guestbook4
+  ports:
+    - port: 80
+      targetPort: 80
