@@ -1,0 +1,10 @@
+resources:
+  - ../../base
+
+namespace: guestbook-sdx
+
+nameSuffix: -sdx
+
+replicas:
+  - name: guestbook
+    count: 2

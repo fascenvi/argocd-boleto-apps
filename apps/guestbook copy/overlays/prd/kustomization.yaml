@@ -1,0 +1,10 @@
+resources:
+  - ../../base
+
+namespace: guestbook-prd
+
+nameSuffix: -prd
+
+replicas:
+  - name: guestbook
+    count: 3
