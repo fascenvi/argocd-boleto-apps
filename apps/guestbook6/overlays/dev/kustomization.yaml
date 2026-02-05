@@ -1,0 +1,10 @@
+resources:
+  - ../../base
+
+namespace: guestbook6-dev
+
+nameSuffix: -dev
+
+replicas:
+  - name: guestbook6
+    count: 1
