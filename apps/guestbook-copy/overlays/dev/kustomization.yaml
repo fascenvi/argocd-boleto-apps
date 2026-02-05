@@ -3,7 +3,7 @@ resources:
 
 namespace: guestbook-dev
 
-nameSuffix: -dev
+nameSuffix: -copy-dev
 
 replicas:
   - name: guestbook
