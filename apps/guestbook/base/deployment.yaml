@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: guestbook
-  namespace: guestbook
 spec:
   replicas: 1
   selector:
@@ -15,6 +14,6 @@ spec:
     spec:
       containers:
         - name: guestbook
-          image: nginx
+          image: redis
           ports:
             - containerPort: 80
